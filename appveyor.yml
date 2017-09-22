@@ -49,6 +49,9 @@ install:
   - if %TARGET%==msvc set PATH=C:\llvm-binary\bin;%PATH%
   - if %TARGET%==msvc where clang
   - if %TARGET%==msvc clang --version
+  # install rustfmt-nightly
+  - rustup update nightly
+  - rustup run nightly cargo install -f rustfmt-nightly
 
 build_script:
   - if %TARGET%==msvc .\ci\test.bat
