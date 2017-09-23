@@ -1,4 +1,5 @@
 # `bindgen`
+[https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)
 
 [`impl period`](https://blog.rust-lang.org/2017/09/18/impl-future-for-rust.html) has been started! Join us at [Gitter.im](https://gitter.im/rust-impl-period/WG-dev-tools-bindgen).
 
